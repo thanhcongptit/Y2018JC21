@@ -17,7 +17,7 @@ public class Baitapvenha {
 		System.out.println("Cu vi hcn la: " + (dai + rong));
 		System.out.println("Dien tich hcn la: " + (dai * rong));
 		
-		//Close Scanner
+		//Close Scannerdfgdfg
 		scan.close();
 	}
 }
