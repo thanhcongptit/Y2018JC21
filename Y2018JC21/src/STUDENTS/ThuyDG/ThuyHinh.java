@@ -8,3 +8,6 @@ public class ThuyHinh {
 	}
 
 }
+
+
+// test thu ABC ...
