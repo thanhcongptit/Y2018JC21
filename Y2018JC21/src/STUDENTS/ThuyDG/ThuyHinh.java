@@ -1,5 +1,4 @@
-package STUDENTS.ThuyDG;
-
+package ThuyDG;
 public class ThuyHinh {
 
 	public static void main(String[] args) {
