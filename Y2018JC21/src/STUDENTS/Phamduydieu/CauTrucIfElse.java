@@ -2,7 +2,7 @@ package Phamduydieu;
 
 import java.util.Scanner;
 
-public class HinhChuNhat {
+public class CauTrucIfElse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
