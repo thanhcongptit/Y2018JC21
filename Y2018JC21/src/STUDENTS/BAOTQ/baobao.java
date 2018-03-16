@@ -1,4 +1,4 @@
-package STUDENTS.BAOTQ;
+package BAOTQ;
 
 public class baobao {
 

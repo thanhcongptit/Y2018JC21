@@ -1,4 +1,4 @@
-package STUDENTS.VQChinh_iMic;
+package VQChinh_iMic;
 
 public class Hello_Y2018JC21 {
 
