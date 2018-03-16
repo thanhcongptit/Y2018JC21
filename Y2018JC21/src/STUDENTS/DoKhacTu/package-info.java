@@ -5,4 +5,4 @@
  * @author Tu Boo
  *
  */
-package STUDENTS.DoKhacTu;
+package DoKhacTu;
