@@ -20,7 +20,7 @@ public class GiaiPhuongTrinhBacHai {
 		} else {
 			int dt = b * b - 4 * a * c;
 			if (dt < 0) {
-				System.out.println("PT vo nghiem");
+				System.out.println("PT vo nghiem"); 
 			} else if (dt == 0) {
 				System.out.println("PT co nghiem kep");
 				System.out.println("x=" + (-b / 2 * a));
