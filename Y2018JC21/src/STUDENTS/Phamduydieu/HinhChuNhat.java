@@ -17,8 +17,8 @@ public class HinhChuNhat {
 		 b = scan.nextInt();
 		 System.out.println("Chu vi hình chữ nhật là   : " + 2*(a + b));
 		 System.out.println("Diện tích hình chữ nhật là: " + a*b);
-		 /* Trường hợp file bị xoasvaof team rồi vào metool . chọn team chọn add to index sau đó commit and push
-		  *  */
+		 /* Trường hợp file bị xóa vào team rồi vào metool . chọn team chọn add to index sau đó commit and push
+		  * Fix lỗi JDK:  chỉ chuật phải vào projeck và chuột phải vào biul park  trỏ vào */
 	}
 
 }
