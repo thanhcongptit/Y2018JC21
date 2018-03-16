@@ -12,8 +12,13 @@ public class exbuoi2 {
 		int b = doituong.nextInt();
 		System.out.println("nhap vao c");
 		int c = doituong.nextInt();
+		float x,x1,x2;
 		if(a==0)
+		{
 			System.out.println("phuong trinh bac 1");
+			x = (-c) / b;
+			System.out.println("x ="+x);
+		}
 		
 		int dt;
 		
@@ -22,14 +27,14 @@ public class exbuoi2 {
 			System.out.println("phuong trinh vo nghiem");
 		else if(dt==0) {
 			System.out.println("phuong trinh co nghiem kep");
-			float x = -b / (2*a);
+			 x = -b / (2*a);
 			System.out.println("x="+x);
 		}
 		else
 		{
 			System.out.println("phuong trinh co 2 nghiem phan biet");
-			float x1 = ( -b + sqrt(dt)) / (2*a);
-			float x2 = (-b - sqrt(dt)) / (2*a);
+			x1 = ( -b + sqrt(dt)) / (2*a);
+			x2 = (-b - sqrt(dt)) / (2*a);
 			System.out.println("x1="+x1);
 			System.out.println("x2="+x2);
 			
