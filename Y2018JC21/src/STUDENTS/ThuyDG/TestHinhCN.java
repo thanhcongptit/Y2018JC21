@@ -12,7 +12,7 @@
 
 
 
-package combon.imic;
+package ThuyDG;
 
 import java.util.Scanner;
 
