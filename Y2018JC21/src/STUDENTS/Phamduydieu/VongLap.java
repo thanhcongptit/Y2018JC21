@@ -1,4 +1,4 @@
-package Phamduydieu.BuoiThu3;
+package Phamduydieu;
 
 public class VongLap {
 
