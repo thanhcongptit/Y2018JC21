@@ -1,4 +1,4 @@
-package VQChinh_iMic;
+package STUDENTS.VQChinh_iMic;
 
 import java.util.Scanner;
 

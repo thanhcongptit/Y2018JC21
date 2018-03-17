@@ -8,6 +8,7 @@ public class PhuongTrinhBacHai {
 		// TODO Auto-generated method stub
 		int a, b, c;
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("Nhap a:\t");
 		a = scanner.nextInt();
 		System.out.print("Nhap b:\t");
@@ -18,8 +19,7 @@ public class PhuongTrinhBacHai {
 		if (a == 0) {
 			System.out.println("Phuong trinh bac 1");
 		} else {
-			float delta = 0f;
-			delta = (b * b) - (4 * a * c);
+			float delta = (b * b) - (4 * a * c);
 			if (delta < 0) {
 				System.out.println("Phuong Trinh Vo Nghiem");
 			} else if (delta == 0) {
