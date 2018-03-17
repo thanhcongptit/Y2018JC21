@@ -6,7 +6,7 @@ public class PhuongTrinhB2 {
 
 	public static void main(String[] args) {
 		Scanner sn = new Scanner(System.in);
-		System.out.println("Nhap cac he so cua phuong trinh bac 2 a*x^2 + b*x +c =0");
+		//System.out.println("Nhap cac he so cua phuong trinh bac 2 a*x^2 + b*x +c =0");
 		System.out.println("Nhap a: ");
 		int a = sn.nextInt();
 		System.out.println("Nhap b: ");
