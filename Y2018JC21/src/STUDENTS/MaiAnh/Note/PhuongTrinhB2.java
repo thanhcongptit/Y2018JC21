@@ -16,7 +16,7 @@ public class PhuongTrinhB2 {
 		if(a==0){
 			System.out.println("Phuong trinh tren la phuong trinh bac 1" );
 		}else{
-			int delta = b*b-4*a*c;
+			double delta = b*b-4*a*c;
 			if(delta<0){
 				System.out.println("Phuong trinh vo nghiem");
 			}else{
