@@ -5,16 +5,15 @@ import java.util.Scanner;
 public class PhuongTrinhBacHai {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int a, b, c;
+		// TODO Auto-generated method stub	
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Nhap a:\t");
-		a = scanner.nextInt();
+		int a = scanner.nextInt();
 		System.out.print("Nhap b:\t");
-		b = scanner.nextInt();
+		int b = scanner.nextInt();
 		System.out.print("Nhap c:\t");
-		c = scanner.nextInt();
+		int c = scanner.nextInt();
 
 		if (a == 0) {
 			System.out.println("Phuong trinh bac 1");
