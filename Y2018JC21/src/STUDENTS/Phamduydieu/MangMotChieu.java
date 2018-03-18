@@ -2,7 +2,7 @@ package Phamduydieu;
 
 import java.util.Scanner;
 
-public class Mang {
+public class MangMotChieu {
 
 	public static void main(String[] args) {
 		// VÍ DỤ 2: Khai báo 1 mảng số thực gồm n phần tử từ bàn phím sau đó in ra màn hình.
