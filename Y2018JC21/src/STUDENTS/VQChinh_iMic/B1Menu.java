@@ -61,21 +61,10 @@ public class B1Menu {
 					break;
 				}
 				DecimalFormat df = new DecimalFormat("0.0000");
-				// CalResult();
-
-				// check toan tu nguoi dung nhap vao
-				if (sToanTu.equals("+") || sToanTu.toUpperCase().equals("CONG")) {
-					dTong = a + b;
-					System.out.println("Tong cua (" + a + ") + (" + b + ") =\t" + df.format(dTong));
-				} else if (sToanTu.equals("-") || sToanTu.toUpperCase().equals("TRU")) {
-					dHieu = a - b;
-					System.out.println("Hieu cua (" + a + ") - (" + b + ") =\t" + df.format(dHieu));
-				} else if (sToanTu.equals("*") || sToanTu.toUpperCase().equals("NHAN")) {
-					dTich = a * b;
-					System.out.println("Tich cua (" + a + ") * (" + b + ") =\t" + df.format(dTich));
-				} else {
-					CalDivision(a, b, dThuong);
+				if (!CheckIndex(nIndex1, nIndex2, nIndex3)) {
+					break;
 				}
+				CalResult(a, b, sToanTu, dKetQua);
 				break;
 
 			case "5":
@@ -128,6 +117,25 @@ public class B1Menu {
 			bCheck = true;
 		}
 		return bCheck;
+	}
+
+	// tinh toan ket qua dua vao toan hang va trinh bay ket qua theo dinh dang thong
+	// nhat
+	public static void CalResult(double a, double b, String sToanTu, double dKetQua) {
+		// dinh dang ket qua tra ve theo dinh dang thong nhat
+		DecimalFormat df = new DecimalFormat("0.0000");
+		if (sToanTu.equals("+") || sToanTu.toUpperCase().equals("CONG")) {
+			dKetQua = a + b;
+			System.out.println("Tong cua (" + a + ") + (" + b + ") =\t" + df.format(dKetQua));
+		} else if (sToanTu.equals("-") || sToanTu.toUpperCase().equals("TRU")) {
+			dKetQua = a - b;
+			System.out.println("Hieu cua (" + a + ") - (" + b + ") =\t" + df.format(dKetQua));
+		} else if (sToanTu.equals("*") || sToanTu.toUpperCase().equals("NHAN")) {
+			dKetQua = a * b;
+			System.out.println("Tich cua (" + a + ") * (" + b + ") =\t" + df.format(dKetQua));
+		} else {
+			CalDivision(a, b, dKetQua);
+		}
 	}
 
 	public static void CalDivision(double a, double b, double dThuong) {
