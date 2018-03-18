@@ -9,7 +9,7 @@ public class B1Menu {
 
 		String sLuaChon, sToanTu = null;
 		double a = 0, b = 0;
-		double dTong = 0, dHieu = 0, dTich = 0, dThuong = 0;
+		double dKetQua = 0;
 		// dung de kiem tra viec nhap du lieu chua
 		int nIndex1 = 0, nIndex2 = 0, nIndex3 = 0;
 		// Dung de thoat khoi menu
