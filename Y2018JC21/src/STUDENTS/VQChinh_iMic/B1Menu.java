@@ -56,10 +56,7 @@ public class B1Menu {
 				break;
 
 			case "4":
-				// check xem nguoi dung da nhap du lieu cho a, b, va toan tu chua
-				if (!CheckIndex(nIndex1, nIndex2, nIndex3)) {
-					break;
-				}
+				// check xem nguoi dung da nhap du lieu cho a, b, va toan tu chua			
 				DecimalFormat df = new DecimalFormat("0.0000");
 				if (!CheckIndex(nIndex1, nIndex2, nIndex3)) {
 					break;
