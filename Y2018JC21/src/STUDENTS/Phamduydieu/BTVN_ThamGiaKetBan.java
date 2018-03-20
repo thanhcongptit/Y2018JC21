@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 import com.sun.java.util.jar.pack.Instruction.Switch;
 
-public class BTVN_ThamGiaKetBan {
+public class BTVN_ThamGiaKetBan 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 /*
   Yêu cầu người dùng nhập vào các thông tin liên quan cho việc xử lý thông tin.
     Phải kiểm tra tất cả những trường thông tin bắt buộc phải nhập như : Tên,
@@ -45,13 +47,34 @@ o Tất cả các thành viên tuổi < 19
 					case 2:
 					System.out.println("Bạn đã đăng ký tham gia thành công..!");
 					break;
+					default :
+					System.out.println("Bạn không thuộc đối tượng tham gia..!");	
 					}
-					System.out.println("Bạn không thuộc đối tượng tham gia..!");
 				}
 				else
 					System.out.println("Bạn không thuộc đối tượng tham gia..!");
+				case "Nữ":
+					if(Tuoi>=19)
+					{									
+						switch (TinhTrangHonNhan)
+						{
+						case 1:
+						System.out.println("Bạn đã đăng ký tham gia thành công..!");
+						break;
+						case 2:
+						System.out.println("Bạn đã đăng ký tham gia thành công..!");
+						break;
+						default :
+						System.out.println("Bạn không thuộc đối tượng tham gia..!");	
+						}
+					}
+					else
+						System.out.println("Bạn không thuộc đối tượng tham gia..!");
+					default :
+						System.out.println("Bạn không thuộc đối tượng tham gia..!");
 			}
 		}
+
 	}
 
 }
