@@ -8,37 +8,34 @@ public class baitapb3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner dauvao = new Scanner(System.in);
-		
-		System.out.println("nhap gia tri a :");
-		int a = dauvao.nextInt();
-		
-		System.out.println("nhap gia tri b :");
-		int b = dauvao.nextInt();
-		
-		System.out.println("nhap gia tri b :");
-		int c = dauvao.nextInt();
-		
+
+		Scanner nhap = new Scanner(System.in);
+		System.out.println("nhap gia tri a =");
+		double a = nhap.nextInt();
+
+		System.out.println("nhap gia tri b =");
+		int b = nhap.nextInt();
+
+		System.out.println("nhap gia tri c =");
+		int c = nhap.nextInt();
+
 		double dt;
 		dt = b * b - 4 * a * c;
-		
-		double x1;
-		x1 = (b + sqrt(dt)) / 2;
-		
-		double x2;
-		x2 = (b - sqrt(dt)) / 2;
+
+		double X = -b / c;
+		double X1 = (-b + sqrt(dt)) / (2 * a);
+		double X2 = (-b - sqrt(dt)) / (2 * a);
 
 		if (a == 0) {
-			System.out.println("Phuong trinh co 1 nghiem =" + "-" + c / b);
+			System.out.println("phuong trinh bac 1:" + "X=" + (-b / c));
+		} else if (dt == 0) {
+			System.out.println("phuong trinh co nghiem kep:" + "X=" + X);
 		} else if (dt < 0) {
 			System.out.println("phuong trinh vo nghiem");
-		} else if (dt == 0) {
-			System.out.println("phuong trinh vo nghiem kep=" + "-" + b / a);
 		} else {
-			System.out.println("phuong trinh co 2 nghiem phan biet:" + "x1=" + x1 + "," + "x2=" + x2);
+			System.out.println("phuong trinh co 2 nghiem phan biet:" + "X1=" + X1 + "," + "X2=" + X2);
 		}
-		dauvao.close();
-
+		nhap.close();
 	}
 
 	private static int sqrt(double dt) {
