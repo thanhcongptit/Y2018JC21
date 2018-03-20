@@ -24,6 +24,7 @@ public class DuyetSoChanLe {
 			case "1":
 				System.out.print("Nhap gia tri cho so can kiem tra\t");
 				dSo = sc.nextDouble();
+				sc.nextLine();
  				break;
  				
 			case "2":							
@@ -76,7 +77,7 @@ public class DuyetSoChanLe {
 				System.out.println("\n***Ban vui long nhap lua chon 1 hoac 2");
 				break;					
 			}
-		}while (!bExit);	
+		}while (!bExit);			
 		return shKieuSo;
 	}
 	
@@ -95,6 +96,7 @@ public class DuyetSoChanLe {
 		}
 		return bCheck;			
 	}
+	
 	public static void HienThiKetQua(int nSo, short shKieuSo) {
 		if (shKieuSo == 1) {
 			System.out.println("\nDanh Sach so chan la");
@@ -113,5 +115,4 @@ public class DuyetSoChanLe {
 			}
 		}		
 	}
-
 }
