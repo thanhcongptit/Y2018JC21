@@ -6,6 +6,8 @@ public class Buoi4Bai2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("Bai Tap tim so lon thu hai trong mang");
+		
 		int Mang[] = new int[10];
 
 		System.out.println("Nhap vao 10 phan tu");
