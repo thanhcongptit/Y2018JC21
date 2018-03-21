@@ -6,6 +6,8 @@ public class Buoi4Bai1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("Bai Tap nhap vao so bat ky in ra ten so day");
+		
 		System.out.println("Nhap mot so bat ky:\t");
 		Scanner scan = new Scanner(System.in);
 		int so = scan.nextInt();
