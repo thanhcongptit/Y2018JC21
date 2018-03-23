@@ -2,7 +2,7 @@ package Phamduydieu;
 
 import java.util.Scanner;
 
-public class CacToantu {
+public class PhuongTrinhBac2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
