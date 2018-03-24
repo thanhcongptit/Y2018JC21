@@ -1,4 +1,4 @@
-package Phamduydieu;
+package Phamduydieu.Note;
 
 public class VongLap {
 

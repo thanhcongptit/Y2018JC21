@@ -1,5 +1,7 @@
 package STUDENTS.VQChinh_iMic;
 
+
+
 import java.util.Scanner;
 
 public class DangKyKetBan {
@@ -149,7 +151,7 @@ public class DangKyKetBan {
 			System.out.println("*****Vui long quay lai sau*****");
 		} 
 		else {
-			System.out.println("\n---CHAO MUNG " + sTen + "---");
+			System.out.println("\n---Chao mung " + sTen + "---");
 			System.out.println("Tuoi - " + nTuoi);
 			System.out.println("Gioi Tinh - " + sGioiTinh); 
 			System.out.println("Tinh Trang Hon Nhan - " + sHonNhan);

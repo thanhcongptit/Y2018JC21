@@ -2,7 +2,7 @@ package Phamduydieu;
 
 import java.util.Scanner;
 
-public class BTVN_SuDung_IFElese_16_03 {
+public class BTVN_MayTinh {
 
 	private static Scanner sc;
 
