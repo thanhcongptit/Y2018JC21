@@ -9,8 +9,6 @@ public class InTamGiac {
 		System.out.println("Nhap do dai canh goc vuong:");
 		int canhGocVuong = scan.nextInt();
 		tamGiacVuongCan(canhGocVuong);
-		String s = "*";
-		String s2 = s+s;
 		System.out.println("In hinh tam giac can");
 		System.out.println("Nhap chieu cao:");
 		int chieuCao=scan.nextInt();
