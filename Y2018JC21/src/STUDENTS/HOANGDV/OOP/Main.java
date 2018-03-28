@@ -51,6 +51,7 @@ public class Main {
 		System.out.println("Nhập giảm giá sp 2: ");
 		double giamGia2 = scan.nextDouble();
 		
+		System.out.println("\n");
 		SanPham sp1 = new SanPham();
 		sp1.setTen(ten1);
 		sp1.setGia(gia1);
@@ -58,6 +59,7 @@ public class Main {
 		System.out.println("Sản phẩm một");
 		sp1.in();
 		
+		System.out.println("\n");
 		SanPham sp2 = new SanPham();
 		sp2.setTen(ten2);
 		sp2.setGia(gia2);
@@ -65,11 +67,13 @@ public class Main {
 		System.out.println("Sản phẩm hai");
 		sp2.in();
 
+		System.out.println("\n");
 		SanPham sp3 = new SanPham(ten1,gia1);
 		System.out.println("Sản phẩm ba");
 		sp3.in();
 		
-		SanPham sp4 = new SanPham(ten2,gia2);
+		System.out.println("\n");
+		SanPham sp4 = new SanPham(ten2,gia2,giamGia2);
 		System.out.println("Sản phẩm bốn");
 		sp4.in();
 		
