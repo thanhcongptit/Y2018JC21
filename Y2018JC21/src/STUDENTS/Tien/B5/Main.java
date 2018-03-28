@@ -48,6 +48,7 @@ public class Main {
 	   System.out.println("thue nhap khau: "+ thuenk);
 	   System.out.println("             ");
 	   System.out.println("             ");
-	  nhap.close();
+	
    }
+   
 }
