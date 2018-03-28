@@ -3,7 +3,7 @@ package STUDENTS.Tien.B5;
 import java.util.Scanner;
 
 public class Main {
-	// đóng gói
+
 	// tạo hàm constructor
 	   public Main() {}
 	private String tensp;
@@ -27,6 +27,7 @@ public class Main {
 		this.giamgia = giamgia;
 		
 	}
+	//đóng gói
 	private double dongia;
 	private double giamgia;
 	private double thuenk;
@@ -65,13 +66,8 @@ public class Main {
 	   System.out.print("giam gia : ");
 	   giamgia=nhap.nextDouble();	  
    }
-   public void nhapdulieu1() {
-	   Scanner nhap =new Scanner(System.in);
-	   System.out.print("ten san pham : ");
-	   tensp=nhap.nextLine();
-	   System.out.print("donn gia  : ");
-	   dongia=nhap.nextDouble();
-   }
+ 
+   
    public void xuat () {
 	   thuenk=(dongia-giamgia)*0.1;
 	   System.out.println("ten san pham: "+ tensp + "      "+"don gia: "+ dongia + "      "+"giam gia: "+giamgia
