@@ -1,4 +1,4 @@
-package HOANGDV.OOP;
+package HOANGDV.OOP.LOP;
 
 import java.util.Scanner;
 
