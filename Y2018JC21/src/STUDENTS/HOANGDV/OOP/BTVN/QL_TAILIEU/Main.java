@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("Quản lý sách");
+		
 		Sach sach = new Sach("TL001", "Kim Đồng", 1000, "A", 1000);
 		System.out.println("Sách");
 		sach.in();
