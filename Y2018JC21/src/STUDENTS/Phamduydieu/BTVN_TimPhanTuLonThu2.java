@@ -1,4 +1,4 @@
-package Phamduydieu;
+package STUDENTS.Phamduydieu;
 
 import java.util.Scanner;
 

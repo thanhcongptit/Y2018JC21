@@ -1,4 +1,4 @@
-package MaiAnh;
+package STUDENTS.MaiAnh;
 
 import java.util.Scanner;
 
